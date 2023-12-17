@@ -1,16 +1,7 @@
-# advanced_app
+# advanced app
 
-A new Flutter project.
 
-## Getting Started
+## 🎨 System Design
 
-This project is a starting point for a Flutter application.
+![image](https://github.com/SABAHMOHAMEDD/advanced_app/assets/102183714/62d1e237-d550-4745-9196-d14d7080d081)
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
