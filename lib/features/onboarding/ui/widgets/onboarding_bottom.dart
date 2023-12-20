@@ -1,4 +1,5 @@
 import 'package:advanced_app/core/helper/extentions.dart';
+import 'package:advanced_app/core/helper/spacing.dart';
 import 'package:advanced_app/core/routing/routes.dart';
 import 'package:advanced_app/core/theming/app_colors.dart';
 import 'package:advanced_app/core/theming/app_text_styles.dart';
@@ -19,9 +20,7 @@ class OnboardingBottom extends StatelessWidget {
             style: AppTextStyles.font13GreyRegular,
             textAlign: TextAlign.center,
           ),
-          SizedBox(
-            height: 40.h,
-          ),
+          verticalSpace(40),
           TextButton(
             onPressed: () {
               context.pushNamed(Routes.loginScreen);
@@ -32,10 +31,10 @@ class OnboardingBottom extends StatelessWidget {
                 minimumSize:
                     MaterialStateProperty.all(const Size(double.infinity, 52)),
                 shape: MaterialStateProperty.all(RoundedRectangleBorder(
-                    borderRadius: BorderRadius.circular(16)))),
+                    borderRadius: BorderRadius.circular(16.r)))),
             child: Text(
               "Get Started",
-              style: AppTextStyles.font16WhiteSemiBold,
+              style: AppTextStyles.font16WhiteMedium,
             ),
           )
         ],
