@@ -18,7 +18,7 @@ class OnboardingBody extends StatelessWidget {
               Colors.white,
               Colors.white.withOpacity(0.0),
             ],
-            stops: [0, 0.5],
+            stops: const [0, 0.5],
             begin: Alignment.bottomCenter,
             end: Alignment.topCenter,
           ),
@@ -37,4 +37,3 @@ class OnboardingBody extends StatelessWidget {
     ]);
   }
 }
- 
